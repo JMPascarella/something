@@ -32,6 +32,9 @@ div.topBanner > nav {
 
 div.topBanner > nav > a {
     margin-right: 25px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #b5e853;
 }
 
 div.heroImage {
