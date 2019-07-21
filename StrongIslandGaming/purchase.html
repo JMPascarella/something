@@ -1,0 +1,43 @@
+<!--This is the AJAX page for Order/purchase
+    Author: JMP
+    Date: July 14th, 2019
+    Filename: purchase.html-->
+
+<form name="purchaseOrderForm" id="purchaseOrderForm" action="index.html">
+    <h1>-- Select all that apply --</h1>
+    <div id="purchaseOrderForm">
+        <div id="itemOne">
+            <input type="checkbox" name="itemOne" value="$$" id="itemOne">
+            <label for="itemOne">Collectible Charizard Pokémon Card ($150 USD)</label>
+        </div><br>
+        <div id="itemTwo">
+            <input type="checkbox" name="itemTwo" value="$$" id="itemTwo">
+            <label for="itemTwo">Action Comics #1 - Graded 8.5/10 ($1,500 USD)</label>
+        </div><br>
+        <div id="itemThree">
+            <input type="checkbox" name="itemThree" value="$$" id="itemThree">
+            <label for="itemThree">Warhammer 30,000 Primarch Model ($250 USD)</label>
+        </div><br>
+        <div id="itemFour">
+            <input type="checkbox" name="itemFour" value="$$" id="itemFour">
+            <label for="itemFour">Munchkin Warhammer 40000 ($35.00 USD)</label>
+        </div><br>
+        <div id="itemFive">
+            <input type="checkbox" name="itemFive" value="$$" id="itemFive">
+            <label for="itemFive">Dark Angels, Funcopop Figure ($15.00 USD)</label>
+        </div><br>
+        <div id="itemSix">
+            <input type="checkbox" name="itemSix" value="$$" id="itemSix">
+            <label for="itemSix">Ultramarine, Funcopop Figure ($15.00 USD)</label>
+        </div><br>
+        <div id="itemSeven">
+            <input type="checkbox" name="itemSeven" value="$$" id="itemSeven">
+            <label for="itemSeven">Space Wolves, Funcopop Figure ($15.00 USD)</label>
+        </div><br>
+        <div id="itemEight">
+            <input type="checkbox" name="itemEight" value="$$" id="itemEight">
+            <label for="itemEight">Blood Angels, Funcopop Figure ($15.00 USD)</label>
+        </div>
+    </div>
+    <input type="submit" id="submit" value="Place Order" onclick="productConfirmation()">
+</form>

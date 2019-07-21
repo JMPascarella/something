@@ -1,0 +1,49 @@
+<!--This is the AJAX page for Order/grading 
+    Author: JMP
+    Date: July 14th, 2019
+    Filename: grading.html-->
+
+<form name="gradingOrderForm" action="index.html" id="gradingOrderForm">
+    <h1>-- Please Select a Service --</h1>
+    <div id="service">
+        <label><input type="radio" name="gradingService" value="25" id="comic" checked>Comic Book ($25.00)</label>
+        <label><input type="radio" name="gradingService" value="15" id="card">Trading Card ($15)</label>
+    </div>    
+    <h1>-- Signature? --</h1>
+    <div id="signature">
+        <label><input type="radio" name="signature" id="signatureYes" value="15" checked>Yes ($15.00)</label>
+        <label><input type="radio" name="signature" id="signatureNo" value="0">No ($0.00)</label>
+    </div>    
+    <h1>-- Publisher? --</h1>
+    <select name="publisher" id="publisher">
+        <div id="comics">
+            <optgroup label="Comics">
+                <option value="DC">DC Comics</option>
+                <option value="Marvel">Marvel</option>
+                <option value="image">Image Comics</option>
+                <option value="darkHorse">Dark Horse</option>
+                <option value="idw">IDW Publishing</option>
+                <option value="otherComic">Other</option>
+            </optgroup>
+        </div>
+        <div id="cards">
+            <optgroup label="Trading Cards" id="tradingCards">
+                <option value="pokemon">Pokémon</option>
+                <option value="magic">Magic The Gathering</option>
+                <option value="yugioh">Yu-Gi-Oh!</option>
+                <option value="otherCard">Other</option>
+            </optgroup>
+        </div>
+    </select>            
+    <h1>-- Condition? --</h1>
+    <div id="condition">
+        <select name="condition" id="condition">
+            <option value="mint">Mint</option>
+            <option value="nearMint">Near Mint</option>
+            <option value="good">Good</option>
+            <option value="fair">Fair</option>
+            <option value="poor">Poor</option>
+        </select>
+    </div>
+    <input type="submit" id="submit" value="Place Order" onclick="confirmation()">  
+</form>

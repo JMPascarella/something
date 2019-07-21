@@ -1,0 +1,21 @@
+<!--This is the AJAX page for Order/computers
+    Author: JMP
+    Date: July 14th, 2019
+    Filename: computers.html-->
+
+<form name="computerOrderForm" action="index.html" id="computerOrderForm">
+    <h1>-- Please Select One --</h1>
+    <div>
+        <fieldset>
+            <legend>Computer Plans</legend>
+            <label><input type="radio" name="computerPlan" id="planOne" value="$$">One Hour($5)</label>
+            <label><input type="radio" name="computerPlan" id="planTwo" value="$$">Three Hours($15)</label>
+            <label><input type="radio" name="computerPlan" id="planThree" value="$$" checked>12 Hours($50)</label>
+            <label><input type="radio" name="computerPlan" id="planFour" value="$$">24 Hours($100)</label>
+            <label><input type="radio" name="computerPlan" id="planFive" value="$$">Three Days($150)</label>
+            <label><input type="radio" name="computerPlan" id="planSix" value="$$">One Week($200)</label>
+            <label><input type="radio" name="computerPlan" id="planSeven" value="$$">One Month($300)</label>
+        </fieldset>
+    </div>
+    <input type="submit" id="submit" value="Place Order" onclick="confirmation()">
+</form>

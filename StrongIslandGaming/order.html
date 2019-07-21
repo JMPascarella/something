@@ -1,0 +1,55 @@
+<!--Order page for Strong Island Gaming, contains AJAX
+    Author: JMP
+    Date: July 14th, 2019
+    Filename: order.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order Now</title>
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cinzel|Gudea|News+Cycle|Sniglet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="ajax.js" defer></script>
+</head>
+<body>
+    <div id="heroImage">
+        <string id="fullText">STRONG ISLAND GAMING</string>
+        <string id="acronym">S<br>I<br>G</string>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><img src="images/batman.png" height="55px" width="75px" /><a href="index.html">About Us</a></li>
+            <li><img id="batSymbol2" src="images/batman.png" height="55px" width="75px" /><a href="products.html">Products &
+                    Services</a></li>
+            <li><img src="images/batman.png" height="55px" width="75px" /><a href="order.html">Order Now</a></li>
+            <li><img id="batSymbol4" src="images/batman.png" height="55px" width="75px" /><a href="review.html">FAQ's and
+                    Reviews</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div id="orderMainContent">
+        <h1> -- Please Select One --</h1>
+        <form id="radioButtons">
+            <input type="radio" name="services" onclick="grade()" id="grading"><label for="grading">Grading</label> <br>
+            <input type="radio" name="services" onclick="computer()" id="computerRental"><label for="computerRental">Computer Rental</label> <br>
+            <input type="radio" name="services" onclick="product()" id="productPurchase"><label for="productPurchase">Purchase a Product</label>
+        </form>
+        <div id="ajaxContent"></div>
+    </div>
+    <footer>
+        <div id="footerLinks">
+            <a href="https://www.facebook.com/"><img id="footerBat1" src="images/batman.png" height="55px" width="75px" />Follow us on Facebook!</a>
+            <a href="https://www.instagram.com/"><img id="footerBat2" src="images/batman.png" height="55px"  width="75px" />Follow us on Instagram!</a>
+            <a href="#"><img id="footerBat3" src="images/batman.png" height="55px" width="75px" />Subscribe to our Newsletter!</a>
+        </div>
+    
+        <div id="footerImage">
+            <a href="https://www.facebook.com/"><img id="miniFacebook" src="images/fbicon.png" height="55px" width="75px"></a>
+            <a href="https://www.instagram.com/"><img id="miniInstagram" src="images/igicon.png" height="55px" width="75px"></a>
+            <a href="#"><img id="miniNewsletter" src="images/nlicon.png" height="55px" width="75px"></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,523 @@
+/* Stylesheet for Strong Island Gaming
+    Author: JMP
+    Date: July 16, 2019
+    Filename: styles.css */
+
+/* HTML and Body Styles */
+
+html {
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: orange;
+    box-shadow: 5px 1px 20px 10px gray;
+}
+
+
+/* Hero Image Styles */
+
+div#heroImage {
+    background-image: url(images/superhero.jpg);
+    background-size: cover;
+    height: 550px;
+    font-size: 100px;
+    font-family: 'Alfa Slab One', cursive;
+    color: red;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+string#acronym {
+    display: none;
+}
+
+
+/* Navigation Styles */
+
+div#navigation > ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+div#navigation > ul > li {
+    -webkit-box-flex: 1 1 25%;
+    flex: 1 1 25%;
+    font-family: 'Sniglet', cursive;
+    font-size: 35px;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    
+}
+
+div#navigation > ul > li img {
+    display: none;
+    position: absolute;
+}
+
+#batSymbol2, #batSymbol4 {
+    right: 380px;
+}
+
+div#navigation > ul > li > a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+div#navigation > ul > li:hover {
+    font-size: 40px;
+}
+
+/* indexMainContent Styles */
+
+div#newArrivals {
+    background-color: #e6a62e;
+    width: 85%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+div#aboutUs {
+    width: 90%;
+    margin: auto;
+}
+
+div#indexMainContent > h1, div#aboutUs h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Cinzel', serif;   
+    font-size: 50px;
+}
+
+div#aboutUs > p {
+    font-size: 25px;
+    font-family: 'Gudea', sans-serif;
+}
+
+div#indexMainContent {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+
+div#indexMainContent > div {
+    flex: 1 1 85%;
+    -webkit-box-flex: 1 1 85%;
+    text-align: center;
+}
+
+div.smallText {
+    display: none;
+}
+
+div#newArrivals {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+div#newArrivals > div {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    flex: 1 1 75%;
+    -webkit-box-flex: 1 1 75%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div#newArrivals > div > div {
+    flex: 1 1 50%;
+    -webkit-box-flex: 1 1 50%;
+}
+
+div.newArrivalDescription {
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: 'Gudea', sans-serif;
+    
+}
+
+div.newArrivalPicture > img {
+    border-radius: 10px;
+    box-shadow: 5px 10px black;
+}
+
+
+/* productsMainContent styles */
+
+div#productsMainContent {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+div#collectibles {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    flex: 1 1 75%;
+    -webkit-box-flex: 1 1 75%;
+    width: 90%;
+    margin: auto;
+}
+
+div#collectiblesFlexBox > h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+}
+
+div.collectiblesContainer {
+    padding: 10px 5px 10px 0px;
+}
+
+div.collectiblesPicture > img {
+    border-radius: 10px;
+    box-shadow: 5px 10px black;
+    margin-bottom: 15px;
+}
+
+div.collectiblesDescription {
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+}
+
+div#collectibles > div {
+    flex: 1 1 45%;
+    -webkit-box-flex: 1 1 50%;
+}
+
+div.descriptionFlexbox {
+    flex: 1 1 45%;
+    -webkit-box-flex: 1 1 50%;
+}
+
+div#bottomFlexBox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+div#rentAComputer, div#gradingService {
+    flex: 1 1 400px;
+    -webkit-box-flex: 1 1 400px;
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+}
+
+div#rentAComputer > h1, div#gradingService > h1 {
+    font-family: 'Cinzel', serif;
+}
+
+/* orderMainContent Styles */
+
+div#orderMainContent {
+    text-align: center;
+}
+
+div#orderMainContent h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+}
+
+form#radioButtons > label {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Gudea', sans-serif;
+}
+
+div#service label {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+div#signature label {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+select#publisher {
+    font-size: 30px;
+}
+
+select#condition {
+    font-size: 30px;
+}
+
+form#gradingOrderForm > input#submit {
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+form#computerOrderForm > h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+}
+
+fieldset {
+    width: 55%;
+    margin: auto;
+}
+
+fieldset > legend {
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+
+fieldset > label {
+    font-size: 28px;
+    font-family: 'Gudea', sans-serif;
+}
+
+form#computerOrderForm > input#submit {
+    font-size: 25px;
+}
+
+div#purchaseOrderForm {
+    column-count: 2;
+    margin-top: 45px;
+}
+
+form#purchaseOrderForm > h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+}
+
+div#purchaseOrderForm > div {
+    margin-bottom: 15px;
+}
+
+div#purchaseOrderForm div > label  {
+    font-size: 30px;
+    font-family: 'Gudea', sans-serif;
+}
+
+form#purchaseOrderForm > input#submit {
+    font-size: 25px;
+}
+
+/* reviewMainContent Styles */
+
+div#reviewMainContent {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+}
+
+div#reviewMainContent h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+div#faqSection, div#customerReviews {
+    flex: 1 1 100%;
+    -webkit-flex: 1 1 100%;
+}
+
+div#faqSection {
+    margin-left: 25px;
+}
+
+div#faqSection > h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+div#faqSection > ol:first-of-type {
+    column-count: 2;
+}
+
+div#faqSection > ol > * {
+    font-size: 25px;
+    font-family: 'Gudea', sans-serif;
+} 
+
+div#customerReviews {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    background-color: #e6a62e;
+    border-radius: 20px;
+}
+
+ div.customerReview {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex: 0 1 500px;
+    -webkit-box-flex: 1 1 400px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Gudea', sans-serif;
+ }
+
+ div.customerReview > span {
+     padding-top: 25px;
+     padding-left: 25px;
+ }
+
+ div#reviewOne, div#reviewTwo {
+     margin-top: 25px;
+ }
+
+ fieldset#commentField {
+     margin-bottom: 25px;
+     border-radius: 20px;
+ }
+
+
+/* Footer Styles */
+
+footer > div#footerLinks {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div#footerImage {
+    display: none;
+    
+}
+
+div#footerLinks > a {
+    flex: 1 1 33.33%;
+    text-decoration: none;
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    font-family: 'Sniglet', cursive;
+    margin: auto;
+}
+
+div#footerLinks > a > img {
+    display: none;
+    position: absolute;
+}
+
+img#footerBat1 {
+    left: 185px;
+}
+
+img#footerBat2 {
+    left: 675px;
+}
+
+img#footerBat3 {
+    right: 690px;
+}
+
+div#footerLinks > a:hover {
+    font-size: 35px;
+}
+
+div#footerLinks > a:hover img {
+    display: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 1700px) {
+
+    div#heroImage {
+        background-image: url(images/superhero.jpg);
+        background-size: cover;
+        height: 550px;
+        font-size: 145px;
+        font-family: 'Alfa Slab One', cursive;
+        color: red;
+        text-align: center;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+
+    div#navigation > ul > li:hover img {
+        display: block;
+    }
+
+    div#footerLinks > a:hover img {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+
+    div#footerImage {
+        display: none;
+    }
+
+    div#footerLinks > a {
+        flex: 1 1 30%;
+        -webkit-box-flex: 1 1 30%;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+        
+    div.newArrivalDescription {
+        display: none;
+    }
+
+    div.smallText {
+        display: block;
+        font-size: 35px;
+        font-family: 'Gudea', sans-serif;
+        padding-top: 25px;
+
+    }    
+    
+    div#footerLinks {
+        display: none;
+    }
+
+    div#footerImage {
+        display: block;
+    }
+
+    div#footerImage > a {
+        flex: 1 1 30%;
+        -webkit-box-flex: 1 1 30%;
+        margin-right: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    string#acronym {
+        display: block;
+    }
+}
