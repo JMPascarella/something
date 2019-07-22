@@ -488,7 +488,7 @@ div#footerLinks > a:hover img {
 
 @media only screen and (max-width: 1000px) {
         
-    div.newArrivalDescription {
+    div.newArrivalDescription, div.collectiblesDescription {
         display: none;
     }
 
@@ -500,7 +500,7 @@ div#footerLinks > a:hover img {
 
     }    
     
-    div#footerLinks {
+    div#footerLinks > a {
         display: none;
     }
 
@@ -516,6 +516,10 @@ div#footerLinks > a:hover img {
 }
 
 @media only screen and (max-width: 600px) {
+
+    string#fullText {
+        display: none;
+    }
 
     string#acronym {
         display: block;
