@@ -16,7 +16,7 @@ div.topBanner {
     -webkit-box-flex: row nowrap;
 }
 
-div.topBanner h1  a {
+div.topBanner h1 a {
     text-decoration: none;
 }
 
@@ -46,14 +46,14 @@ div.heroImage {
     border-radius: 25px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 150px;   
 }
 
 div.heroImage > h1 {
     color: black;
     font-size: 75px;
     text-align: center;
-    padding-top: 70px;
-    vertical-align: middle;
+    padding-top: 25px;
 }
 
 div.heroImage > h1 > a {
