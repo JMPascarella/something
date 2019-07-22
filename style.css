@@ -18,7 +18,7 @@ div.topBanner {
 
 div.topBanner h1  a {
     text-decoration: none;
-    color: #b5e853;
+
 }
 
 div.topBanner > h1 {
@@ -38,7 +38,7 @@ div.topBanner > nav > a {
     margin-right: 25px;
     font-size: 40px;
     text-decoration: none;
-    color: #b5e853;
+   
 }
 
 div.heroImage {
@@ -101,7 +101,6 @@ div.postContent {
 
 div.postContent p {
     text-indent: 2em;
-    color: #b5e853;
 }
 
 div.aboutContent {
@@ -142,7 +141,7 @@ div#otherWorks > nav > a  {
     margin: auto;
     margin-top: 25px;
     text-decoration: none;
-    color: #b5e853;
+
 }
 
 div.buttons {
