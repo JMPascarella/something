@@ -9,23 +9,34 @@ body {
 }
 
 div.topBanner {
-    flex: 1 1 120px;
+    flex: 1 1 750px;
     display: flex;
     display: -webkit-flex;
     flex-flow: row nowrap;
     -webkit-box-flex: row nowrap;
 }
 
-div.topBanner h1 a {
-    text-decoration: none;
-}
 
-div.topBanner > h1 {
+
+div.topBanner > h1, div#logo {
     flex: 3 1 150px;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 25px;
     font-size: 50px;
+}
+
+div#logo {
+    display: none;
+}
+
+div.topBanner h1 a {
+    text-decoration: none;
+}
+
+h1#smallText {
+    display: none;
+        
 }
 
 div.topBanner > nav {
@@ -41,7 +52,7 @@ div.topBanner > nav > a {
 }
 
 div.heroImage {
-    flex: 3 1 350px;
+    flex: 3 1 750px;
     background-color: #afcf73;
     border-radius: 25px;
     margin-left: 20px;
@@ -202,7 +213,26 @@ div.goBack {
 	top:1px;
 }
 
-        
+/* Media Queries */
+
+@media only screen and (max-width: 750px) {
+    h1#largeText {
+        display: none;
+    }
+
+    h1#smallText {
+        display: block;
+
+    }
+
+    div.topBanner > h1 {
+        display: none;
+    }
+
+    div#logo {
+        display: block;
+    }
+}
 
 
 
